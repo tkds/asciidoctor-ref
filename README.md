@@ -19,5 +19,5 @@ asciidoctor sample.adoc
 ## PDF
 
 ```
-asciidoctor-pdf -r asciidoctor-pdf-cjk sample.adoc
+asciidoctor-pdf -a scripts=cjk -a pdf-theme=default-with-fallback-font sample.adoc
 ```
